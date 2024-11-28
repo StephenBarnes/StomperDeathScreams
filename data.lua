@@ -16,3 +16,11 @@ data.raw["spider-unit"]["big-stomper-pentapod"].dying_sound = sound_variations(
 	6,
 	1.2,
 	volume_multiplier("main-menu", 1.21))
+
+if data.raw["spider-unit"]["behemoth-stomper-pentapod"] ~= nil then
+	data.raw["spider-unit"]["behemoth-stomper-pentapod"].dying_sound = sound_variations(
+		"__StomperDeathScreams__/sound/stomper-death-scream",
+		6,
+		1.4,
+		volume_multiplier("main-menu", 1.21))
+end
